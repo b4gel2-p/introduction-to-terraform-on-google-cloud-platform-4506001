@@ -1,6 +1,5 @@
 variable "project_id" {
-  type = string  
-  default = "terraform-tutorial-461901"
+  type = string
 }
 
 variable "region" {
@@ -9,8 +8,7 @@ variable "region" {
 }
 
 variable "network_name" {
-  type = string  
-  default = "app"
+  type = string
 }
 
 variable "network_ip_range" {
@@ -29,8 +27,7 @@ variable "image_family" {
 }
 
 variable "app_name" {
-  type = string  
-  default = "blog"
+  type = string
 }
 
 variable "machine_type" {
